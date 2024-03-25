@@ -1,3 +1,11 @@
+from pathlib import Path
+import scrapy
+from datetime import datetime
+import pandas as pd
+import time
+import re
+import string
+
 ## Step News
 
 class StepNewsSpider(scrapy.Spider):
